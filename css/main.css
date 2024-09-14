@@ -3,7 +3,7 @@
 
 body {
   /* у него тут нет system ui поэтому если что лучше убрать  */
-  font-family: "Montserrat", system-ui, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 400;
@@ -26,34 +26,32 @@ body {
 }
 
 /* Header */
-
-.header {}
+.header {
+}
 
 /* Nav */
-
-.nav {}
-
+.nav {
+}
 .nav__row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  align-items: center;
   gap: 30px;
 }
-
-.nav__list {}
-
-.nav__logo {}
-
-.nav__btn {}
-
-/* nav-list */
+.nav__list {
+}
+/* Nav-list */
 
 .nav-list {
   display: flex;
-}
-
-.nav-list__item {
   align-items: center;
-  /* Вертикально будут по центру относительно друг друга  */
+  gap: 50px;
 }
-
-.nav-list__link {}
+.nav-list__item {
+}
+.nav-list__link {
+}
+.nav__logo {
+}
+.nav__btn {
+}
